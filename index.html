@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas Parejas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="marca">
+        <h1>⛰️ Descubre Islandia ⛰️</h1>
+    </div>
+    <div id="feedback"></div>
+    <div id="pagina">
+        <div id="contenido">
+            <!--div para el contenido-->
+            <div id="tablero">Cargando...</div>
+            <!--tablero dónde se carga el tablero con imagenes-->
+            <!-- <div id="mostrar"></div> -->
+            <div id="datos">
+                <!--formulario de datos y boton-->
+                <div id="fichas"></div>
+                <div id="intentos">
+                <dl>
+                    <dt>Intentos</dt>
+                    <!--contador intentos-->
+                    <dd id="movimientos"></dd>
+                    <dt>Aciertos</dt>
+                    <!--contador aciertos-->
+                    <dd id="aciertos"></dd>
+                    <dt>Tiempo</dt>
+                    <!--temporizador-->
+                    <dd id="cronometro"><span id="minutos">0</span>:<span id="segundos">0</span></dd>
+
+                </dl>
+                <form name="datos" id="boton" action="index.html">
+                    <input type="submit" value="Reiniciar 👌" id="reiniciar">
+                </form>
+            </div>
+            
+                <!--boton reiniciar-->
+            </div>
+        </div>
+
+        <!--fin del div de contenido-->
+        <script src="/index.js"></script>
+</body>
+
+</html>

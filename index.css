@@ -1,0 +1,135 @@
+/*fuente, tamaño, margen izquierdo y color de fondo para el body*/
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-left: 200px;
+  background-color: white;
+}
+/*Posición para la tabla dónde se muestran las imagenes*/
+#contenido {
+  display: flex;
+}
+#intentos {
+  width: 100px;
+  height: 200px;
+}
+/*Posición, margen superior, margen izquierdo, tamaño de la fuente
+  color y negrita del enlace al final de la página.*/
+#adicional {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 400px;
+  font-size: 14px;
+  left: 0px;
+  color: #666;
+  font-weight: bold;
+}
+/*CSS para la etiqueta h1*/
+h1 {
+  text-align: center;
+  width: 460px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #273c75;
+}
+/*tamaño de la fuenta que afecta a la etiqueta strong que esté dentro de h1*/
+h1 strong {
+  font-size: 48px;
+}
+/*CSS para la tabla que está dentro del id tablero (definido en js) */
+#tablero table {
+  /*border: 2px solid #9c9cb1;*/
+  padding: 5px;
+}
+#tablero {
+  background-color: #273c75;
+  border: 3px solid #273c75;
+}
+/*CSS para los tr y td que están contenidos dentro del div con id tablero*/
+#tablero tr,
+#tablero td {
+  padding: 10px;
+  margin: 0;
+}
+/*CSS para las imagenes que están dentro de un td que a su vez están dentro 
+   del div con id tablero*/
+#tablero td img {
+  margin: 4px;
+  padding: 0;
+  height: 150px;
+  width: 110px;
+  border: none;
+}
+/*Para cuando se pasa el ratón por encima de las imágenes*/
+#tablero td img:hover {
+  margin: 4px;
+  padding: 0;
+  height: 148px;
+  width: 108px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+}
+/*CSS para el formulario que muestra los contadores*/
+#datos {
+  display: flex;
+  top: 0px;
+  left: 480px;
+  padding: 4px 6px;
+  /* background-color: #273c75; */
+  border: 5px #273c75 groove;
+  height: 180px;
+}
+/*CSS para los encabezados de listas de definición que están dentro de los div
+  con id datos*/
+#datos dt {
+  color: #273c75;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+}
+/*CSS para las definiciones de lista de definiciones que están dentro del div con
+   id datos*/
+#datos dd {
+  display: block;
+  width: 42px;
+  background-color: lightgrey;
+  padding: 0px;
+  text-align: right;
+  margin: 2px 0 12px 36px;
+}
+
+#reiniciar {
+  display: flex;
+  width: 123px;
+  color: #273c75;
+  justify-content: center;
+  padding: 5%;
+  margin-top: 30px;
+  margin-left: -12px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fff;
+  border: 5px #273c75 groove;
+}
+
+#reiniciar:hover {
+    border: 5px #273c75 groove;
+  box-shadow: 2px 2px 5px #273c75;
+}
+
+#marca {
+  display: flex;
+}
+#feedback {
+    color: #273c75;
+    padding: 2%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
