@@ -189,9 +189,8 @@ function comprobar() {
   document.getElementById("aciertos").innerHTML = oJuego.aciertos;
 }
 /*********************************/
-//Evento que al cargarse la ventana carga las funciones cargarImagenes, empezarJuego y cargar el reloj
+//Evento que al cargarse la ventana carga las funciones empezarJuego y cargar el reloj
 window.onload = function () {
-  //cargarImagenes();
   empezarJuego();
   bienvenida();
 };
